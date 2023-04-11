@@ -1,0 +1,379 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 15vh;
+    position: fixed;
+    background-color: white;
+}
+
+header div {
+    width: 90%;
+    height: 15vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav ul {
+    font-size: large;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 5%;
+}
+
+.sec1 {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
+
+.sec1 h1 {
+    width: 50%;
+    font-size: 70px;
+    text-align: center;
+    position: absolute;
+    top: 6rem;
+    left: 50vh;
+}
+
+
+.sec1 p {
+    font-size: 20px;
+    position: absolute;
+    top: 19rem;
+    left: 70vh;
+}
+
+
+.sec2 {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+}
+
+.sec2 div {
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    position: relative;
+}
+
+.div1 img {
+    width: 85%;
+    height: 50vh;
+    position: absolute;
+    top: 20px;
+    left: 10%;
+}
+
+.div1 h1 {
+    font-size: 30px;
+    position: absolute;
+    top: 23rem;
+    left: 10%;
+}
+
+
+.div1 p {
+    font-size: 20px;
+    position: absolute;
+    top: 26rem;
+    left: 10%;
+}
+
+.div2 {
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    position: relative;
+}
+
+
+.div2 img {
+    width: 85%;
+    height: 50vh;
+    position: absolute;
+    top: 20px;
+    right: 10%;
+}
+
+
+.div2 h1 {
+    font-size: 30px;
+    position: absolute;
+    top: 23rem;
+    left: 5%;
+}
+
+.div2 p {
+    font-size: 20px;
+    position: absolute;
+    top: 26rem;
+    left: 5%;
+}
+
+
+.sec3 {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sec3 div {
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    position: relative;
+}
+
+
+.div3 img {
+    width: 85%;
+    height: 50vh;
+    position: absolute;
+    top: 20px;
+    left: 10%;
+}
+
+.div3 h1 {
+    font-size: 30px;
+    position: absolute;
+    top: 23rem;
+    left: 10%;
+}
+
+.div3 p {
+    font-size: 20px;
+    position: absolute;
+    top: 26rem;
+    left: 10%;
+}
+
+
+.div2 {
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    position: relative;
+}
+
+
+.div4 img {
+    width: 85%;
+    height: 50vh;
+    position: absolute;
+    top: 20px;
+    right: 10%;
+}
+
+
+.div4 h1 {
+    font-size: 30px;
+    position: absolute;
+    top: 23rem;
+    left: 5%;
+}
+
+.div4 p {
+    font-size: 20px;
+    position: absolute;
+    top: 26rem;
+    left: 5%;
+}
+
+
+.btn1 {
+    width: 13%;
+    height: 8vh;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: -65rem;
+    left: 44%;
+    font-size: larger;
+}
+
+
+.sec4 {
+    width: 100%;
+    height: 120vh;
+    background-color: #F2EDEB;
+    display: flex;
+}
+
+.sec4 .div5 {
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    position: relative;
+}
+
+
+.div5 h1 {
+    width: 50%;
+    font-size: 45px;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+
+.div5 p {
+    width: 60%;
+    font-size: 20px;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+}
+
+.btn2 {
+    width: 25%;
+    height: 8vh;
+    position: absolute;
+    left: 10%;
+    top: 80%;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
+
+
+
+.div6 {
+    width: 50%;
+    height: 90vh;
+    position: relative;
+    position: relative;
+}
+
+.div6 img {
+    font-size: 100px;
+    position: absolute;
+    left: 5%;
+    top: 25vh;
+}
+
+
+.sec5 {
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div7 {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.div7 h1 {
+    width: 50%;
+    font-size: 45px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+
+.div8 {
+    width: 100%;
+    height: 25vh;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.div9 {
+    width: 24%;
+    height: 25vh;
+}
+
+.div9 img {
+    width: 90%;
+}
+
+.div10 {
+    width: 24%;
+    height: 25vh;
+}
+
+.div10 img {
+    width: 90%;
+}
+
+.div11 {
+    width: 24%;
+    height: 25vh;
+}
+
+.div11 img {
+    width: 90%;
+}
+
+.div12 {
+    width: 24%;
+    height: 25vh;
+}
+
+.div12 img {
+    width: 90%;
+}
+
+footer {
+    width: 100%;
+    height: 70vh;
+    background-color: #E8E3E1;
+    display: flex;
+    position: relative;
+}
+
+footer h1 {
+    font-size: 25px;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+footer h2 {
+    font-size: 20px;
+    position: absolute;
+    top: 27vh;
+    left: 35%;
+}
+
+footer input {
+    width: 30%;
+    height: 8vh;
+    position: absolute;
+    top: 30vh;
+    left: 35%;
+    border: none;
+    margin-top: 10px;
+}
+
+.btn3 {
+    width: 170px;
+    height: 9vh;
+    background-color: #232323;
+    color: white;
+    font-size: large;
+    position: absolute;
+    top: 44vh;
+    left: 45%;
+}
+
+.div13 {
+    position: absolute;
+    top: 59vh;
+    left: 48%;
+}
